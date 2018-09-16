@@ -1,0 +1,10 @@
+/* Visit https://bootswatch.com/darkly/ for styling */
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.form-control-lg {
+  padding: 2rem 1rem;
+  margin: auto;
+}
