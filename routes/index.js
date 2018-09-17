@@ -6,10 +6,6 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Brier Hill' });
 });
 
-/* GET About page. */
-router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'Brier Hill' });
-});
 
 /* GET home page. */
 router.get('/submit', function(req, res, next) {
