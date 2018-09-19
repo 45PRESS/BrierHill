@@ -11,6 +11,8 @@ var apiRouter = require('./routes/api');
 var pricingRouter = require('./routes/pricing');
 var showcaseRouter = require('./routes/showcase');
 
+var dbinit = require('./db');
+dbinit;
 
 var app = express();
 
@@ -30,9 +32,6 @@ app.use('/about', aboutRouter);
 app.use('/api', apiRouter);
 app.use('/pricing', pricingRouter);
 app.use('/showcase', showcaseRouter);
-
-
-
 
 
 // catch 404 and forward to error handler
